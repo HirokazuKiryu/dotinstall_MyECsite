@@ -24,6 +24,14 @@ img {
   vertical-align: bottom;
 }
 
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
 /* common
 -------------------- */
 
@@ -55,11 +63,15 @@ header h1 img {
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
-  list-style: none;
 }
 
 .products ul li {
   width: calc((100% - 64px) / 3);
+  cursor: pointer;
+}
+
+.products li:hover {
+  opacity: 0.7;
 }
 
 .products ul li img {
@@ -81,4 +93,40 @@ footer {
 
 small {
   font-size: 14px;
+}
+
+/* product.html
+---------------------------------------- */
+
+/* product-item 
+-------------------- */
+
+.product-item {
+  /* border: 1px solid green; */
+  padding-top: 32px;
+}
+
+.product-item ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-item li {
+  /* border: 1px solid blue; */
+  width: 45%;
+}
+
+.product-item li p {
+  margin-top: 16px;
+}
+
+.product-item li button {
+  margin-top: 16px;
+  width: 88px;
+  line-height: 2.5rem;
+}
+
+.product-item ul img {
+  width: 280px;
+  height: 280px;
 }
