@@ -98,37 +98,32 @@ small {
 /* product.html
 ---------------------------------------- */
 
-/* product-item 
+/* product-
 -------------------- */
 
-.product-item {
-  /* border: 1px solid green; */
+.product {
   padding-top: 32px;
-}
-
-.product-item ul {
   display: flex;
-  justify-content: space-between;
+  gap: 2rem;
 }
 
-.product-item li {
-  /* border: 1px solid blue; */
-  width: 45%;
-}
+.product div {
+  border: 1px solid red;
+  flex: 1;
+} 
 
-.product-item li p {
+.product div p {
   margin-top: 16px;
+  text-align: justify;
 }
 
-.product-item li button {
+.product div button {
   margin-top: 16px;
   width: 88px;
   line-height: 2.5rem;
 }
 
-.product-item ul img {
-  width: 280px;
-  height: 280px;
+.product div img {
+  width: 100%;
+  height: auto;
 }
-
-
