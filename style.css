@@ -24,10 +24,6 @@ img {
   vertical-align: bottom;
 }
 
-li {
-  list-style: none;
-}
-
 /* common
 -------------------- */
 
@@ -42,8 +38,6 @@ li {
 -------------------- */
 
 header {
-  background-color: pink;
-  width: calc(100% - 64px);
   margin: 0 auto;
   padding: 32px 0;
 }
@@ -56,26 +50,26 @@ header h1 img {
 /* products
 -------------------- */
 
-section {
-  /* width: calc(100% - 64px); */
+.products {
   border: 2px solid green;
 }
 
-section ul {
+.products ul {
+  list-style: none;
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
 }
 
-section ul li {
+.products ul li {
   border: 2px solid red;
 }
 
-section ul li img {
+.products ul li img {
   width: 400px;
   height: 400px;
 }
 
-section ul li h3 {
+.products ul li h3 {
   margin-top: 8px;
 }
