@@ -19,7 +19,7 @@ img {
   /* background-color: pink; */
   max-width: 600px;
   margin: 0 auto;
-  width: calc(100% - 10%);
+  width: calc(100% - 64px);
 }
 
 
